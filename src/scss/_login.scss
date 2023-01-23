@@ -1,0 +1,16 @@
+.login-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(201, 201, 201);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login{
+        width: 600px;
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        border-radius: 20px;
+    }
+}

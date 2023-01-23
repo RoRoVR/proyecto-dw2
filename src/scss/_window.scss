@@ -1,0 +1,33 @@
+.window{
+    background-color: rgba(0, 0, 0, 0.255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .window-body{
+        background-color: white;
+        width: 500px;
+        border-radius: 20px;
+        padding: 20px;
+
+        .fotoPerfil{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            label{
+                text-align: center;
+                cursor: pointer;
+            }
+            input{
+                width: 0;
+                height: 0;
+            }
+        }
+    }
+}
